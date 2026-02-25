@@ -58,29 +58,28 @@ const Navbar = () => {
             showMenu && (
                 <div className='md:hidden mt-4 bg-gray-800 h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center'>
 
-                    <a href='#home' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
+                    <a onClick={()=>setShowMenu(!showMenu)}  href='#home' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
                         <span>Home</span>
-                        <span className="absolute left-0 bottom-5 w-0 h-0.5 bg-purple-500 transition-all duration-300 group-hover:w-full"></span>
+                        
                     </a>              
 
-                    <a href='#about' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
+                    <a onClick={()=>setShowMenu(!showMenu)}  href='#about' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
                         <span>About</span>
-                        <span className="absolute left-0 bottom-5 w-0 h-0.5 bg-purple-500 transition-all duration-300 group-hover:w-full"></span>
+                        
                     </a>
 
-                    <a href='#Skills' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
+                    <a onClick={()=>setShowMenu(!showMenu)}  href='#Skills' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
                         <span>Skills</span>
-                        <span className="absolute left-0 bottom-5 w-0 h-0.5 bg-purple-500 transition-all duration-300 group-hover:w-full"></span>
+
                     </a>
 
-                    <a href='#project' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
+                    <a onClick={()=>setShowMenu(!showMenu)}  href='#project' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
                         <span>Projects</span>
-                        <span className="absolute left-0 bottom-5 w-0 h-0.5 bg-purple-500 transition-all duration-300 group-hover:w-full"></span>
+
                     </a>
 
-                    <a href='#contact' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
+                    < a onClick={()=>setShowMenu(!showMenu)}  href='#contact' className='relative text-white/100 transition duration-300 hover:text-purple-500 group'>    
                         <span>Contact</span>
-                        <span className="absolute left-0 bottom-5 w-0 h-0.5 bg-purple-500 transition-all duration-300 group-hover:w-full"></span>
                     </a>
 
                 </div>
