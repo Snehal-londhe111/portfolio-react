@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <motion.div
       // properties of the framer motion
-      initial={{ opacity: 0, y: 50 }}
+      initial={{ opacity: 0, y: 100 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
       viewport={{ once: true }}
@@ -45,11 +45,20 @@ const Hero = () => {
 
         {/* right side image */}
         <div className='md:w-1/2 flex justify-center'>
-          <div className='relative w-64 h-64 md:w-80 md:h-80'>
-            <div className='absolute inset-0 rounded-full bg-gradient-to-r from-purple to to-pink animate-pluse-slow opacity-70'>
-              
-              <motion.img src={profileImg.jpeg} alt="Profile" />
-              
+          <div className='relative w-64 h-64 md:w-80 md:h-80'>              
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 animate-pulse opacity-70">
+
+              <motion.img 
+              animate={{ y: [0, -30, 0] }}
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                repeatType: "loop",
+                ease: "easeInOut"
+              }}
+              className='relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float'
+              src={profileImg} alt="Profile" />
+            
             </div>
           </div>
         </div>
