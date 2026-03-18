@@ -39,7 +39,7 @@ const ProjectCard1 = () => {
               View Demo
             </a>
 
-            <a href="#contact" className='px-6 py-3 border border-purple-500 rounded-lg font-medium hover:bg-purple-500/20 transition duration-300'>
+            <a href="https://github.com/Snehal-londhe111/django_book_crud_project" className='px-6 py-3 border border-purple-500 rounded-lg font-medium hover:bg-purple-500/20 transition duration-300'>
               Project Code
             </a>
 
