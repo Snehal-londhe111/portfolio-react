@@ -91,12 +91,12 @@ const Contact = () => {
                         <div className='pt-4'>
                             <h3 className='text-lg font-semibold mb-4'>Follow Me</h3>
                             <div className='flex space-x-4'>
-                                <a href="#" className='w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-purple-500 hover:bg-purple-500 hover:text-white transition duration-300'
+                                <a href="https://github.com/Snehal-londhe111" className='w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-purple-500 hover:bg-purple-500 hover:text-white transition duration-300'
                                 >
                                         <FaGithub />
                                 </a>
 
-                                 <a href="#" className='w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-bule-500 hover:bg-blue-500 hover:text-white transition duration-300'
+                                 <a href="https://www.linkedin.com/in/snehal-londhe-55198b3aa" className='w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-bule-500 hover:bg-blue-500 hover:text-white transition duration-300'
                                 >
                                         <FaLinkedin />
                                 </a>

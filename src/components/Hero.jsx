@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
 
           <div className='flex space-x-4'>
-            <a href="#projects" className='px-6 py-3 bg-purple-500 rounded-lg font-medium hover:bg-purple-800 transition duration-300'>
+            <a href="#project" className='px-6 py-3 bg-purple-500 rounded-lg font-medium hover:bg-purple-800 transition duration-300'>
               View Work
             </a>
 
